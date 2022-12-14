@@ -35,7 +35,7 @@ export default function Projects() {
           </p>
         <div>
           <h1 className="text-xl p-1 pt-6 mx-auto max-w-5xl dark:text-gray-500 font-bold">
-            Axel's Adventure 2D Platformer Video Game
+            Axels Adventure 2D Platformer Video Game
           </h1>
           <p className="text-md py-2 mx-auto px-36 max-w-5xl text-gray-800 dark:text-gray-600 leading-8">
             Personal research project that helped me learn the basics of the Unity engine and scripting in C# without any prior experience. This project was used to fulfill my requirements for the Seton Hill computer science major capstone. Total development time was around 80 hours.
