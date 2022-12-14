@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) project created by Caleb Voorhees with the purpose of promoting his work on a personal website. This project is bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
@@ -26,6 +26,11 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+To learn more about Tailwind CSS, take a look at the following resources:
+
+- [Tailwind Installation](https://tailwindcss.com/docs/installation) - install Tailwind CSS
+- [Tailwind Documentation](https://tailwindcss.com/docs) - learn about Tailwind CSS features and syntax.
 
 ## Deploy on Vercel
 
