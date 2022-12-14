@@ -30,7 +30,8 @@ export default function Home() {
                   <a 
                   className="bg-gradient-to-r from-blue-800 to bg-blue-500 text-white px-4 py-2 rounded-md ml-8" 
                   href="Voorhees_Resume.pdf"
-                  target="_blank"                  
+                  rel="noreferrer"  
+                  target="_blank"                
                   >
                     Resume
                   </a>
@@ -54,12 +55,14 @@ export default function Home() {
             <a 
             className="text-6xl flex gap-16 py-3 px-5 text-gray-600 hover:text-gray-900 dark:text-gray-500 dark:hover:text-white" 
             href="https://www.linkedin.com/in/caleb-voorhees/"
+            rel="noreferrer"
             target="_blank">
               <AiFillLinkedin />
              </a>
             <a 
             className="text-6xl flex gap-16 py-3 px-5 text-gray-600 hover:text-gray-900 dark:text-gray-500 dark:hover:text-white" 
             href="https://github.com/cvoorhees15" 
+            rel="noreferrer"
             target="_blank">
               <AiFillGithub />
             </a>           

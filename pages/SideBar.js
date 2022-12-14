@@ -1,6 +1,7 @@
 import { ImProfile } from 'react-icons/im'
 import { BsTelephone } from 'react-icons/bs'
 import { AiOutlineFolderOpen } from 'react-icons/ai'
+import Link from 'next/link';
 
 const SideBar = () => {
 return(
@@ -8,9 +9,18 @@ return(
                   flex flex-col">
     <ul>
         <li>
-            <a href="/"><SideBarIconAbout icon ={<ImProfile size="45" />} /></a>
-            <a href="/projects"><SideBarIconPortfolio icon ={<AiOutlineFolderOpen size="45" />} /></a>
-            <a href="/contact"><SideBarIconContact icon ={<BsTelephone size="45" />} /></a>
+          <Link href="/">
+           <a><SideBarIconAbout icon ={<ImProfile size="45" />} /></a>
+          </Link>     
+                
+          <Link href="/projects">
+            <a><SideBarIconPortfolio icon ={<AiOutlineFolderOpen size="45" />} /></a>
+          </Link>
+            
+          <Link href="/contact">
+            <a><SideBarIconContact icon ={<BsTelephone size="45" />} /></a>
+          </Link>
+            
         </li>
     </ul>
 

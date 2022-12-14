@@ -19,7 +19,8 @@ export default function Contact (){
                 <li className="pr-10">
                   <a 
                   className="bg-gradient-to-r from-blue-800 to bg-blue-500 text-white px-4 py-2 rounded-md ml-8" 
-                  href="Voorhees_Resume.pdf"
+                  href="Voorhees_Resume.pdf"               
+                  rel="noreferrer"
                   target="_blank"
                   >
                     Resume
