@@ -50,7 +50,7 @@ export default function Projects() {
           </p>
         </div>
         <div>
-          <h1 className="text-xl p-1 pt-6 mx-auto max-w-5xl dark:text-gray-500 font-bold">
+          <h1 className="text-xl p-1 px-24 pt-6 mx-auto max-w-5xl dark:text-gray-500 font-bold">
             Library Desktop Application
           </h1>
           <p className="text-md py-2 mx-auto max-w-5xl px-24 text-gray-800 dark:text-gray-600 leading-8">
@@ -58,7 +58,7 @@ export default function Projects() {
           </p>
         </div>
         <div>
-          <h1 className="text-xl p-1 pt-6 mx-auto max-w-5xl dark:text-gray-500 font-bold">
+          <h1 className="text-xl p-1 px-24 pt-6 mx-auto max-w-5xl dark:text-gray-500 font-bold">
             The Seton Hill Welcome App
           </h1>
           <p className="text-md py-2 mx-auto max-w-5xl px-24 text-gray-800 dark:text-gray-600 leading-8">

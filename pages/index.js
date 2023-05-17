@@ -47,7 +47,7 @@ export default function Home() {
             <p className="text-md py-3 px-6 max-w-5xl mx-auto leading-8 text-gray-800 dark:text-gray-500">
               I am a spring 2023 graduate of the Seton Hill University computer science program seeking a software development position that fits my skill set. I am hopeful to find a position where I am enabled and encouraged to help others through software solutions. On this site you will find a summary of my skills and experience as well as a portfolio of projects from my time as an undergraduate.
             </p>
-            <p className="text-md py-3 mx-auto px-24 leading-8 font-bold text-gray-800 dark:text-gray-500">
+            <p className="text-md py-3 mx-auto leading-8 font-bold text-gray-800 dark:text-gray-500">
               Skills: C#, Python, PHP, Swift, Java, Tailwind CSS, HTML, SQL, Markdown, Git, Linux, Excel
             </p>
           </div>
