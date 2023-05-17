@@ -43,9 +43,9 @@ export default function Home() {
           </div>
           <div className="text-center p-5">
             <h2 className="text-5xl py-2 text-blue-600 font-medium">Caleb Voorhees</h2>
-            <h3 className="text-2xl py-2 dark:text-gray-500">Junior Developer </h3>
-            <p className="text-md py-3 px-36 max-w-5xl mx-auto leading-8 text-gray-800 dark:text-gray-500">
-              I am a spring 2023 graduate of the Seton Hill University computer science program seeking an entry level development position that fits my skill set. I am hopeful to find a position where I am enabled and encouraged to help others through software solutions. On this site you will find a summary of my skills and experience as well as a portfolio of projects from my time as an undergraduate.
+            <h3 className="text-2xl py-2 dark:text-gray-500">Software Engineer </h3>
+            <p className="text-md py-3 px-6 max-w-5xl mx-auto leading-8 text-gray-800 dark:text-gray-500">
+              I am a spring 2023 graduate of the Seton Hill University computer science program seeking a software development position that fits my skill set. I am hopeful to find a position where I am enabled and encouraged to help others through software solutions. On this site you will find a summary of my skills and experience as well as a portfolio of projects from my time as an undergraduate.
             </p>
             <p className="text-md py-3 mx-auto px-24 leading-8 font-bold text-gray-800 dark:text-gray-500">
               Skills: C#, Python, PHP, Swift, Java, Tailwind CSS, HTML, SQL, Markdown, Git, Linux, Excel

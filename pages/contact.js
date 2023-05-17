@@ -32,10 +32,10 @@ export default function Contact (){
             <h1 className="text-5xl p-10 text-blue-600 font-bold">Contact Info</h1>
            <h2 className= "">
              <ul>
-                <li className= "text-lg py-3 px-36 text-gray-800 dark:text-gray-600 leading-8 mx-auto max-w-5xl"><a>Email: cvoorhees44@gmail.com</a></li>
-                <li className= "text-lg py-3 px-36 text-gray-800 dark:text-gray-600 leading-8 mx-auto max-w-5xl">Phone: (315)-744-5877</li>
-                <li className= "text-lg py-3 px-36 text-gray-800 dark:text-gray-600 leading-8 mx-auto max-w-5xl">Discord: Ca1eb#8726</li>
-                <li className= "text-lg py-3 px-36 text-gray-800 dark:text-gray-600 leading-8 mx-auto max-w-5xl">LinkedIn: Caleb Voorhees</li>
+                <li className= "text-lg py-3 text-gray-800 dark:text-gray-600 leading-8 mx-auto max-w-5xl"><a>Email: cvoorhees44@gmail.com</a></li>
+                <li className= "text-lg py-3 text-gray-800 dark:text-gray-600 leading-8 mx-auto max-w-5xl">Phone: (315)-744-5877</li>
+                <li className= "text-lg py-3 text-gray-800 dark:text-gray-600 leading-8 mx-auto max-w-5xl">Discord: Ca1eb#8726</li>
+                <li className= "text-lg py-3 text-gray-800 dark:text-gray-600 leading-8 mx-auto max-w-5xl">LinkedIn: Caleb Voorhees</li>
               </ul>
             </h2>
           </div>
