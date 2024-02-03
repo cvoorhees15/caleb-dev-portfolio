@@ -38,17 +38,16 @@ export default function Home() {
                 </li>
               </ul>
           </nav>
-          <div className="p-1 mx-auto bg-gradient-to-bl from-blue-700 rounded-full w-48 h-48 mt-10 overflow-hidden">
+          <div className="mx-auto bg-gradient-to-bl from-blue-700 rounded-full w-48 h-48 mt-10 overflow-hidden">
             <Image src={calebImage} />
           </div>
           <div className="text-center p-5">
             <h2 className="text-5xl py-2 text-blue-600 font-medium">Caleb Voorhees</h2>
             <h3 className="text-2xl py-2 dark:text-gray-500">Software Engineer </h3>
             <p className="text-md py-3 px-6 max-w-5xl mx-auto leading-8 text-gray-800 dark:text-gray-500">
-              I am a spring 2023 graduate of the Seton Hill University computer science program seeking a software development position that fits my skill set. I am hopeful to find a position where I am enabled and encouraged to help others through software solutions. On this site you will find a summary of my skills and experience as well as a portfolio of projects from my time as an undergraduate.
-            </p>
+              I am currently working as a software engineer at C Speed LLC where I am being enabled to create impactful embedded software that helps improve the lives of others. There are multiple different ongoing projects that I've had opportunities to contribute to at C Speed. I am learning more everyday and expanding my toolkit for my future endeavors in the tech industry.            </p>
             <p className="text-md py-3 mx-auto leading-8 font-bold text-gray-800 dark:text-gray-500">
-              Skills: C#, Python, PHP, Swift, Java, Tailwind CSS, HTML, SQL, Markdown, Git, Linux, Excel
+              Skills: C++, C, C#, Python, Swift, PHP, SQL, Bash, Qt, .NET, XAML, Markdown, HTML, Tailwind CSS, SwiftUI, Visual Studio, Xcode, VSCode, Git, Jira, Azure DevOps, Jenkins, Vercel, VirtualBox
             </p>
           </div>
           <div class= "flex flex-row justify-center">
