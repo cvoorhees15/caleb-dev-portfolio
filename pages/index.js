@@ -73,7 +73,7 @@ export default function Home() {
 	
 	   <footer className="bg-gray-600 text-white py-4 text-center">
         <p className="text-md">
-          Contact: <a href="mailto:cvoorhees44@gmail.com" className="underline">cvoorhees44@gmail.com</a>
+        <a href="mailto:cvoorhees44@gmail.com" className="underline">cvoorhees44@gmail.com</a>
         </p>
       </footer>
     </div>
