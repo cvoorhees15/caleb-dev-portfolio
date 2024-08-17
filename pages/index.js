@@ -45,7 +45,7 @@ export default function Home() {
             <h2 className="text-5xl py-2 text-blue-600 font-medium">Caleb Voorhees</h2>
             <h3 className="text-2xl py-2 dark:text-gray-500">Software Engineer </h3>
             <p className="text-md py-3 px-6 max-w-5xl mx-auto leading-8 text-gray-800 dark:text-gray-500">
-              I am currently working as a software engineer at C Speed LLC where I am being enabled to create impactful embedded software that helps improve the lives of others. There are multiple different ongoing projects that I have had opportunities to contribute to at C Speed. I am learning more everyday and expanding my toolkit for my future endeavors in the tech industry.            </p>
+              Software engineer at C Speed with a strong desire to contribute to software solutions that help people. Actively developing, testing, and maintaining embedded software for industry leading medical equipment.            </p>
             <p className="text-md py-3 mx-auto leading-8 font-bold text-gray-800 dark:text-gray-500">
               Skills: C++, C, C#, Python, Swift, PHP, SQL, Bash, Qt, .NET, XAML, Markdown, HTML, Tailwind CSS, SwiftUI, Visual Studio, Xcode, VSCode, Git, Jira, Azure DevOps, Jenkins, Vercel, VirtualBox
             </p>
