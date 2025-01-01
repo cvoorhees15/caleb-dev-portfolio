@@ -47,7 +47,7 @@ export default function Home() {
             <p className="text-md py-3 px-6 max-w-5xl mx-auto leading-8 text-gray-800 dark:text-gray-500">
               Software engineer at C Speed with a strong desire to contribute to software solutions that help people. Actively developing, testing, and maintaining embedded software for industry leading medical equipment.            </p>
             <p className="text-md py-3 mx-auto leading-8 font-bold text-gray-800 dark:text-gray-500">
-              C++, C, C#, Python, Swift, PHP, SQL, Bash, Qt, .NET, XAML, Markdown, HTML, Tailwind CSS, SwiftUI, Visual Studio, Xcode, VSCode, Git, Jira, Azure DevOps, Jenkins, Vercel, VirtualBox
+             C++, C#, C, Python, Swift, PHP, SQL, Bash, HTML, Tailwind CSS, Git, Tortoise SVN, Azure, TFS, DevOps, Jira, Bitbucket, GCC, Uboot, OpenEmbedded, Win32 Disk Imager, PSOC Creator, Tera Term, iTerm, .NET, Qt, Jenkins, Docker, VirtualBox, Vercel, Unity, App Store Connect
             </p>
           </div>
           <div class= "flex flex-row justify-center">
