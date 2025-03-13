@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import { BsFillMoonStarsFill } from 'react-icons/bs'
-import {AiFillLinkedin, AiFillGithub, AiFillMail} from 'react-icons/ai'
+import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai'
 import Image from 'next/image'
 import calebImage from '../public/caleb.png'
 import { useState } from "react";
@@ -17,26 +17,26 @@ export default function Home() {
 
       <main className="bg-white px-10 dark:bg-gray-900">
         <section className="min-h-screen">
-          <nav className ="py-10 mb-12 flex justify-between">
+          <nav className="py-10 mb-12 flex justify-between">
             <h1 className="text-2xl font-bold dark:text-gray-500">Developer Portfolio</h1>
-              <ul className="flex items-center">
-                <li>
-                  <BsFillMoonStarsFill 
+            <ul className="flex items-center">
+              <li>
+                <BsFillMoonStarsFill 
                   onClick={() => setDarkMode(!darkMode)} 
                   className="cursor-pointer text-2xl dark:text-gray-500" 
-                  />
-                </li>
-                <li>
-                  <a 
+                />
+              </li>
+              <li>
+                <a 
                   className="bg-gradient-to-r from-blue-800 to bg-blue-500 text-white px-4 py-2 rounded-md ml-8" 
                   href="Voorhees_Resume.pdf"
                   rel="noreferrer"  
                   target="_blank"                
-                  >
-                    Resume
-                  </a>
-                </li>
-              </ul>
+                >
+                  Resume
+                </a>
+              </li>
+            </ul>
           </nav>
           <div className="mx-auto bg-gradient-to-bl from-blue-700 rounded-full w-48 h-48 mt-10 overflow-hidden">
             <Image src={calebImage} />
@@ -45,37 +45,66 @@ export default function Home() {
             <h2 className="text-5xl py-2 text-blue-600 font-medium">Caleb Voorhees</h2>
             <h3 className="text-2xl py-2 dark:text-gray-500">Software Engineer </h3>
             <p className="text-md py-3 px-6 max-w-5xl mx-auto leading-8 text-gray-800 dark:text-gray-500">
-              Software engineer at C Speed with a strong desire to contribute to software solutions that help people. Actively developing, testing, and maintaining embedded software for industry leading medical equipment.            </p>
-            <p className="text-md py-3 mx-auto leading-8 font-bold text-gray-800 dark:text-gray-500">
-             C++, C#, C, Python, Swift, PHP, SQL, Bash, HTML, Tailwind CSS, Git, Tortoise SVN, Azure, TFS, DevOps, Jira, Bitbucket, GCC, Uboot, OpenEmbedded, Win32 Disk Imager, PSOC Creator, Tera Term, iTerm, .NET, Qt, Jenkins, Docker, VirtualBox, Vercel, Unity, App Store Connect
+              Software engineer at C Speed with a strong desire to contribute to software solutions that help people. Actively developing, testing, debugging and maintaining software for industry leading medical devices and radar surveillance applications.
             </p>
           </div>
-          <div class= "flex flex-row justify-center">
-            <a 
-            className="text-6xl flex gap-16 py-3 px-5 text-gray-600 hover:text-gray-900 dark:text-gray-500 dark:hover:text-white" 
-            href="https://www.linkedin.com/in/caleb-voorhees/"
-            rel="noreferrer"
-            target="_blank">
-              <AiFillLinkedin />
-             </a>
-            <a 
-            className="text-6xl flex gap-16 py-3 px-5 text-gray-600 hover:text-gray-900 dark:text-gray-500 dark:hover:text-white" 
-            href="https://github.com/cvoorhees15" 
-            rel="noreferrer"
-            target="_blank">
-              <AiFillGithub />
-            </a>           
+
+          {/* Scrolling Skills Section */}
+          <div className="overflow-hidden whitespace-nowrap py-5 relative w-full bg-gray-100 dark:bg-gray-800 p-4 rounded-lg shadow-md">
+            <div className="flex space-x-10 animate-scroll items-center">
+              {[...Array(4)].map((_, i) => (
+                <div key={i} className="flex space-x-10">
+                  {["C++", "C#", "C", "Python", "Swift", "PHP", "SQL", "Bash", "HTML", "Tailwind CSS", "Git", "Tortoise SVN", "Azure", "TFS", "DevOps", "Jira", "Bitbucket", "GCC", "Uboot", "OpenEmbedded", "Win32 Disk Imager", "PSOC Creator", "Tera Term", "iTerm", ".NET", "Qt", "Jenkins", "Docker", "VirtualBox", "Vercel", "Unity", "App Store Connect"].map((skill, index) => (
+                    <span key={index} className="text-xl font-semibold text-gray-100 dark:text-gray-300 bg-gradient-to-r from-blue-500 to-blue-800 text-white px-6 py-3 rounded-md shadow-lg border-2 border-blue-800 dark:border-white">
+                      {skill}
+                    </span>
+                  ))}
+                </div>
+              ))}
+            </div>
+          </div>
+          
+          <div className="flex flex-col items-center">
+            <div className="flex flex-row justify-center">
+              <a 
+                className="text-6xl flex gap-16 py-3 px-5 text-gray-600 hover:text-gray-900 dark:text-gray-500 dark:hover:text-white" 
+                href="https://www.linkedin.com/in/caleb-voorhees/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <AiFillLinkedin />
+              </a>
+              <a 
+                className="text-6xl flex gap-16 py-3 px-5 text-gray-600 hover:text-gray-900 dark:text-gray-500 dark:hover:text-white" 
+                href="https://github.com/cvoorhees15" 
+                rel="noreferrer"
+                target="_blank"
+              >
+                <AiFillGithub />
+              </a>           
+            </div>
+            <p className="text-md pt-4 text-gray-600 hover:text-gray-900 dark:text-gray-500 dark:hover:text-white">
+              <a href="mailto:cvoorhees44@gmail.com" className="underline">cvoorhees44@gmail.com</a>
+            </p>
           </div>
         </section>
-
-        
       </main>
-	
-	   <footer className="bg-gray-600 text-white py-4 text-center">
-        <p className="text-md">
-        <a href="mailto:cvoorhees44@gmail.com" className="underline">cvoorhees44@gmail.com</a>
-        </p>
-      </footer>
+
+      <style jsx>{`
+        @keyframes scroll {
+          from {
+            transform: translateX(0);
+          }
+          to {
+            transform: translateX(-50%);
+          }
+        }
+        .animate-scroll {
+          display: flex;
+          width: max-content;
+          animation: scroll 80s linear infinite;
+        }
+      `}</style>
     </div>
-  )
+  );
 }
