@@ -28,7 +28,7 @@ export default function Home() {
               </li>
               <li>
                 <a 
-                  className="bg-gradient-to-r from-blue-800 to bg-blue-500 text-white px-4 py-2 rounded-md ml-8" 
+                  className="bg-gradient-to-r from-blue-500 to-blue-400 text-white px-4 py-2 rounded-md ml-8" 
                   href="Voorhees_Resume.pdf"
                   rel="noreferrer"  
                   target="_blank"                
@@ -38,11 +38,11 @@ export default function Home() {
               </li>
             </ul>
           </nav>
-          <div className="mx-auto bg-gradient-to-bl from-blue-700 rounded-full w-48 h-48 mt-10 overflow-hidden">
+          <div className="mx-auto bg-gradient-to-bl from-blue-400 rounded-full w-48 h-48 mt-10 overflow-hidden">
             <Image src={calebImage} />
           </div>
           <div className="text-center p-5">
-            <h2 className="text-5xl py-2 text-blue-600 font-medium">Caleb Voorhees</h2>
+            <h2 className="text-5xl py-2 text-blue-500 font-medium">Caleb Voorhees</h2>
             <h3 className="text-2xl py-2 dark:text-gray-500">Software Engineer </h3>
             <p className="text-md py-3 px-6 max-w-5xl mx-auto leading-8 text-gray-800 dark:text-gray-500">
               Software engineer at C Speed with a strong desire to contribute to software solutions that help people. Actively developing, testing, debugging and maintaining software for industry leading medical devices and radar surveillance applications.
@@ -55,7 +55,7 @@ export default function Home() {
               {[...Array(4)].map((_, i) => (
                 <div key={i} className="flex space-x-10">
                   {["C++", "C#", "C", "Python", "Swift", "PHP", "SQL", "Bash", "HTML", "Tailwind CSS", "Git", "Tortoise SVN", "Azure", "TFS", "DevOps", "Jira", "Bitbucket", "GCC", "Uboot", "OpenEmbedded", "Win32 Disk Imager", "PSOC Creator", "Tera Term", "iTerm", ".NET", "Qt", "Jenkins", "Docker", "VirtualBox", "Vercel", "Unity", "App Store Connect"].map((skill, index) => (
-                    <span key={index} className="text-xl font-semibold text-gray-100 dark:text-gray-300 bg-gradient-to-r from-blue-500 to-blue-800 text-white px-6 py-3 rounded-md shadow-lg border-2 border-blue-800 dark:border-white">
+                    <span key={index} className="text-xl font-semibold text-gray-100 dark:text-gray-300 bg-gradient-to-r from-blue-400 to-blue-500 text-white px-6 py-3 rounded-md shadow-lg border-2 border-blue-500 dark:border-white">
                       {skill}
                     </span>
                   ))}
