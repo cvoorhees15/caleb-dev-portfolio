@@ -349,10 +349,10 @@ export default function Home() {
         <section id="contact" className="py-20">
           <div className="max-w-4xl mx-auto px-6 text-center">
             <h2 className="text-4xl font-bold mb-8 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              Let's Work Together
+              Lets Work Together
             </h2>
             <p className="text-xl text-gray-600 dark:text-gray-300 mb-12 leading-relaxed">
-              I'm always interested in new opportunities and exciting projects. Let's discuss how we can create something amazing together.
+              Im always interested in new opportunities and exciting projects. Lets discuss how we can create something amazing together.
             </p>
             
             <div className="flex flex-col sm:flex-row items-center justify-center space-y-6 sm:space-y-0 sm:space-x-8 mb-12">
