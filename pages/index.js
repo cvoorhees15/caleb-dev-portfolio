@@ -48,7 +48,7 @@ export default function Home() {
   return (
     <div className={darkMode ? "dark" : ""}>
       <Head>
-        <title>Caleb Voorhees - Software Engineer</title>
+        <title>Caleb Voorhees Portfolio</title>
         <meta name="description" content="Software Engineer Portfolio" />
         <link rel="icon" href="/caleb.png" />
       </Head>
@@ -136,15 +136,15 @@ export default function Home() {
             </div>
 
             <p className="text-lg md:text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed mb-12">
-  Software engineer at <a 
-    href="https://www.cspeed.com/" 
-    target="_blank" 
-    rel="noreferrer" 
-    className="text-blue-600 dark:text-blue-400 font-semibold hover:text-blue-800 dark:hover:text-blue-300 transition-colors underline"
-  >
-    C Speed
-  </a> with a strong desire to contribute to software solutions that help people. Actively developing, testing, debugging and maintaining software for industry leading <span className="text-purple-600 dark:text-purple-400 font-semibold">medical devices</span> and <span className="text-pink-600 dark:text-pink-400 font-semibold">radar surveillance systems</span>.
-</p>
+              Software engineer at <a 
+                href="https://www.cspeed.com/" 
+                target="_blank" 
+                rel="noreferrer" 
+                className="text-blue-600 dark:text-blue-400 font-semibold hover:text-blue-800 dark:hover:text-blue-300 transition-colors underline"
+              >
+                C Speed
+              </a> with a strong desire to contribute to software solutions that help people. Actively developing, testing, debugging and maintaining software for industry leading <span className="text-purple-600 dark:text-purple-400 font-semibold">medical devices</span> and <span className="text-pink-600 dark:text-pink-400 font-semibold">radar surveillance systems</span>.
+            </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
               <button 
@@ -201,7 +201,7 @@ export default function Home() {
 
               <div className="space-y-6">
                 {Object.entries(skills).map(([category, skillList]) => (
-                  <div key={category} className="bg-white dark:bg-gray-900 p-6 rounded-xl shadow-lg">
+                  <div key={category} className="bg-white dark:bg-gray-900 p-6 rounded-xl shadow-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 cursor-pointer">
                     <h4 className="font-semibold text-gray-800 dark:text-gray-200 mb-3 flex items-center">
                       <HiCode className="mr-2 text-blue-600" />
                       {category}
@@ -210,7 +210,7 @@ export default function Home() {
                       {skillList.map((skill, index) => (
                         <span 
                           key={index}
-                          className="bg-gradient-to-r from-blue-100 to-purple-100 dark:from-blue-900 dark:to-purple-900 text-blue-800 dark:text-blue-200 px-3 py-1 rounded-full text-sm font-medium"
+                          className="bg-gradient-to-r from-blue-100 to-purple-100 dark:from-blue-900 dark:to-purple-900 text-blue-800 dark:text-blue-200 px-3 py-1 rounded-full text-sm font-medium hover:from-blue-200 hover:to-purple-200 dark:hover:from-blue-800 dark:hover:to-purple-800 transition-all duration-200"
                         >
                           {skill}
                         </span>
@@ -224,126 +224,126 @@ export default function Home() {
         </section>
 
         {/* Experience Section */}
-<section id="experience" className="py-20">
-  <div className="max-w-6xl mx-auto px-6">
-    <h2 className="text-4xl font-bold text-center mb-16 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-      Professional Experience
-    </h2>
-    
-    <div className="relative">
-      <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-blue-600 to-purple-600"></div>
-      
-      <div className="space-y-12">
-        {/* Current Position - Radar Software Engineer */}
-        <div className="relative flex items-start space-x-8">
-          <div className="flex-shrink-0 w-16 h-16 bg-gradient-to-br from-blue-600 to-purple-600 rounded-full flex items-center justify-center">
-            <HiBriefcase className="text-white text-xl" />
-          </div>
-          <div className="flex-grow bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg border-l-4 border-green-500">
-            <div className="flex items-center space-x-3 mb-2">
-              <h3 className="text-2xl font-semibold text-gray-800 dark:text-gray-200">
-                Radar Software Engineer
-              </h3>
-              <span className="bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200 px-3 py-1 rounded-full text-sm font-medium">
-                Current
-              </span>
-            </div>
-            <p className="text-blue-600 dark:text-blue-400 font-medium mb-4">
-              C Speed • March 2025 - Present
-            </p>
-            <div className="space-y-3 mb-6">
-              <div className="flex items-start space-x-3">
-                <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
-                <p className="text-gray-600 dark:text-gray-300">
-                  <span className="font-semibold">Web-based Air Situation Display:</span> Javascript development using React for real-time radar data visualization and user interface components
-                </p>
-              </div>
-              <div className="flex items-start space-x-3">
-                <div className="w-2 h-2 bg-purple-500 rounded-full mt-2 flex-shrink-0"></div>
-                <p className="text-gray-600 dark:text-gray-300">
-                  <span className="font-semibold">Light Wave Radar Data Processor:</span> C and C++ development for Windows OS focusing on high-performance signal processing and analysis
-                </p>
-              </div>
-            </div>
-            <div className="flex flex-wrap gap-2">
-              {["JavaScript", "React", "C++", "C", "Windows OS", "Radar Systems", "Signal Processing"].map((tech, index) => (
-                <span key={index} className="bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 px-3 py-1 rounded-full text-sm">
-                  {tech}
-                </span>
-              ))}
-            </div>
-          </div>
-        </div>
+        <section id="experience" className="py-20">
+          <div className="max-w-6xl mx-auto px-6">
+            <h2 className="text-4xl font-bold text-center mb-16 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+              Professional Experience
+            </h2>
+            
+            <div className="relative">
+              <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-blue-600 to-purple-600"></div>
+              
+              <div className="space-y-12">
+                {/* Current Position - Radar Software Engineer */}
+                <div className="relative flex items-start space-x-8">
+                  <div className="flex-shrink-0 w-16 h-16 bg-gradient-to-br from-blue-600 to-purple-600 rounded-full flex items-center justify-center">
+                    <HiBriefcase className="text-white text-xl" />
+                  </div>
+                  <div className="flex-grow bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg border-l-4 border-green-500 hover:shadow-2xl hover:scale-105 transition-all duration-300 cursor-pointer">
+                    <div className="flex items-center space-x-3 mb-2">
+                      <h3 className="text-2xl font-semibold text-gray-800 dark:text-gray-200">
+                        Radar Software Engineer
+                      </h3>
+                      <span className="bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200 px-3 py-1 rounded-full text-sm font-medium">
+                        Current
+                      </span>
+                    </div>
+                    <p className="text-blue-600 dark:text-blue-400 font-medium mb-4">
+                      C Speed • March 2025 - Present
+                    </p>
+                    <div className="space-y-3 mb-6">
+                      <div className="flex items-start space-x-3">
+                        <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
+                        <p className="text-gray-600 dark:text-gray-300">
+                          <span className="font-semibold">Web-based Air Situation Display:</span> Javascript development using React for real-time radar data visualization and user interface components
+                        </p>
+                      </div>
+                      <div className="flex items-start space-x-3">
+                        <div className="w-2 h-2 bg-purple-500 rounded-full mt-2 flex-shrink-0"></div>
+                        <p className="text-gray-600 dark:text-gray-300">
+                          <span className="font-semibold">Light Wave Radar Data Processor:</span> C and C++ development for Windows OS focusing on high-performance signal processing and analysis
+                        </p>
+                      </div>
+                    </div>
+                    <div className="flex flex-wrap gap-2">
+                      {["JavaScript", "React", "C++", "C", "Windows OS", "Radar Systems", "Signal Processing"].map((tech, index) => (
+                        <span key={index} className="bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 px-3 py-1 rounded-full text-sm hover:bg-green-200 dark:hover:bg-green-800 transition-colors duration-200">
+                          {tech}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                </div>
 
-        {/* Design Services Software Engineer */}
-        <div className="relative flex items-start space-x-8">
-          <div className="flex-shrink-0 w-16 h-16 bg-gradient-to-br from-purple-600 to-pink-600 rounded-full flex items-center justify-center">
-            <HiBriefcase className="text-white text-xl" />
-          </div>
-          <div className="flex-grow bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg">
-            <h3 className="text-2xl font-semibold text-gray-800 dark:text-gray-200 mb-2">
-              Design Services Software Engineer
-            </h3>
-            <p className="text-purple-600 dark:text-purple-400 font-medium mb-4">
-              C Speed • June 2023 - March 2025
-            </p>
-            <div className="space-y-3 mb-6">
-              <div className="flex items-start space-x-3">
-                <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
-                <p className="text-gray-600 dark:text-gray-300">
-                  <span className="font-semibold">Patient Monitor Medical Device:</span> C and C++ development for a Yocto embedded system, ensuring reliable performance in critical healthcare environments
-                </p>
-              </div>
-              <div className="flex items-start space-x-3">
-                <div className="w-2 h-2 bg-purple-500 rounded-full mt-2 flex-shrink-0"></div>
-                <p className="text-gray-600 dark:text-gray-300">
-                  <span className="font-semibold">Medical Device Service Tool:</span> C# development using .NET framework for diagnostic and maintenance applications
-                </p>
-              </div>
-            </div>
-            <div className="flex flex-wrap gap-2">
-              {["C++", "C", "C#", ".NET", "Yocto", "Embedded Systems", "Medical Devices"].map((tech, index) => (
-                <span key={index} className="bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 px-3 py-1 rounded-full text-sm">
-                  {tech}
-                </span>
-              ))}
-            </div>
-          </div>
-        </div>
+                {/* Design Services Software Engineer */}
+                <div className="relative flex items-start space-x-8">
+                  <div className="flex-shrink-0 w-16 h-16 bg-gradient-to-br from-purple-600 to-pink-600 rounded-full flex items-center justify-center">
+                    <HiBriefcase className="text-white text-xl" />
+                  </div>
+                  <div className="flex-grow bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 cursor-pointer">
+                    <h3 className="text-2xl font-semibold text-gray-800 dark:text-gray-200 mb-2">
+                      Design Services Software Engineer
+                    </h3>
+                    <p className="text-purple-600 dark:text-purple-400 font-medium mb-4">
+                      C Speed • June 2023 - March 2025
+                    </p>
+                    <div className="space-y-3 mb-6">
+                      <div className="flex items-start space-x-3">
+                        <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
+                        <p className="text-gray-600 dark:text-gray-300">
+                          <span className="font-semibold">Patient Monitor Medical Device:</span> C and C++ development for a Yocto embedded system, ensuring reliable performance in critical healthcare environments
+                        </p>
+                      </div>
+                      <div className="flex items-start space-x-3">
+                        <div className="w-2 h-2 bg-purple-500 rounded-full mt-2 flex-shrink-0"></div>
+                        <p className="text-gray-600 dark:text-gray-300">
+                          <span className="font-semibold">Medical Device Service Tool:</span> C# development using .NET framework for diagnostic and maintenance applications
+                        </p>
+                      </div>
+                    </div>
+                    <div className="flex flex-wrap gap-2">
+                      {["C++", "C", "C#", ".NET", "Yocto", "Embedded Systems", "Medical Devices"].map((tech, index) => (
+                        <span key={index} className="bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 px-3 py-1 rounded-full text-sm hover:bg-purple-200 dark:hover:bg-purple-800 transition-colors duration-200">
+                          {tech}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                </div>
 
-        {/* Student Programmer */}
-        <div className="relative flex items-start space-x-8">
-          <div className="flex-shrink-0 w-16 h-16 bg-gradient-to-br from-pink-600 to-red-600 rounded-full flex items-center justify-center">
-            <HiAcademicCap className="text-white text-xl" />
-          </div>
-          <div className="flex-grow bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg">
-            <h3 className="text-2xl font-semibold text-gray-800 dark:text-gray-200 mb-2">
-              Student Programmer
-            </h3>
-            <p className="text-pink-600 dark:text-pink-400 font-medium mb-4">
-              Seton Hill University • June 2022 - June 2023
-            </p>
-            <div className="space-y-3 mb-6">
-              <div className="flex items-start space-x-3">
-                <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
-                <p className="text-gray-600 dark:text-gray-300">
-                  <span className="font-semibold">SHIP Student/Faculty Portal:</span> Migration of a PHP web application from Symfony to Laravel framework, improving performance and maintainability
-                </p>
+                {/* Student Programmer */}
+                <div className="relative flex items-start space-x-8">
+                  <div className="flex-shrink-0 w-16 h-16 bg-gradient-to-br from-pink-600 to-red-600 rounded-full flex items-center justify-center">
+                    <HiAcademicCap className="text-white text-xl" />
+                  </div>
+                  <div className="flex-grow bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 cursor-pointer">
+                    <h3 className="text-2xl font-semibold text-gray-800 dark:text-gray-200 mb-2">
+                      Student Programmer
+                    </h3>
+                    <p className="text-pink-600 dark:text-pink-400 font-medium mb-4">
+                      Seton Hill University • June 2022 - June 2023
+                    </p>
+                    <div className="space-y-3 mb-6">
+                      <div className="flex items-start space-x-3">
+                        <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
+                        <p className="text-gray-600 dark:text-gray-300">
+                          <span className="font-semibold">SHIP Student/Faculty Portal:</span> Migration of a PHP web application from Symfony to Laravel framework, improving performance and maintainability
+                        </p>
+                      </div>
+                    </div>
+                    <div className="flex flex-wrap gap-2">
+                      {["PHP", "Laravel", "Symfony", "Web Development", "Framework Migration"].map((tech, index) => (
+                        <span key={index} className="bg-pink-100 dark:bg-pink-900 text-pink-800 dark:text-pink-200 px-3 py-1 rounded-full text-sm hover:bg-pink-200 dark:hover:bg-pink-800 transition-colors duration-200">
+                          {tech}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-            <div className="flex flex-wrap gap-2">
-              {["PHP", "Laravel", "Symfony", "Web Development", "Framework Migration"].map((tech, index) => (
-                <span key={index} className="bg-pink-100 dark:bg-pink-900 text-pink-800 dark:text-pink-200 px-3 py-1 rounded-full text-sm">
-                  {tech}
-                </span>
-              ))}
-            </div>
           </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+        </section>
 
         {/* Contact Section */}
         <section id="contact" className="py-20">
