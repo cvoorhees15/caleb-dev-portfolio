@@ -39,10 +39,10 @@ export default function Home() {
 
   const skills = {
     "Programming Languages": ["C++", "C#", "C", "Python", "Swift", "Javascript", "PHP", "Bash", "Powershell"],
-    "Frameworks & Libraries": [".NET", "MicroPython", "React", "Qt", "SwiftUI"],
-    "Development Tools": ["Visual Studio", "WSL", "GCC", "CMake", "SSH", "Tera Term", "iTerm"],
+    "Frameworks & Libraries": [".NET", "MicroPython", "React", "Qt", "SwiftUI", "SQLite3"],
+    "Development Tools": ["Visual Studio", "WSL", "GCC", "CMake", "SSH", "Tera Term", "iTerm", "SQLite"],
     "DevOps & Deployment": ["Git", "Gitlab", "Tortoise SVN", "Azure", "TFS", "DevOps", "Jira", "Jenkins", "Docker", "VirtualBox", "Vercel", "VSS"],
-    "Embedded & System Tools": ["Uboot", "Bitbake", "PSOC Creator",  "Win32 Disk Imager"]
+    "Embedded System Tools": ["Yocto", "Uboot", "Bitbake", "PSOC Creator",  "Win32 Disk Imager"]
   };
 
   return (
@@ -255,13 +255,13 @@ export default function Home() {
                       <div className="flex items-start space-x-3">
                         <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
                         <p className="text-gray-600 dark:text-gray-300">
-                          <span className="font-semibold">Web-based Air Situation Display:</span> Javascript development using React for real-time radar data visualization and user interface components
+                          <span className="font-semibold">Light Wave Radar Data Processor:</span> C and C++ RTOS software focusing on high-performance signal processing and analysis
                         </p>
                       </div>
                       <div className="flex items-start space-x-3">
                         <div className="w-2 h-2 bg-purple-500 rounded-full mt-2 flex-shrink-0"></div>
                         <p className="text-gray-600 dark:text-gray-300">
-                          <span className="font-semibold">Light Wave Radar Data Processor:</span> C and C++ development for Windows OS focusing on high-performance signal processing and analysis
+                          <span className="font-semibold">Web-based Air Situation Display:</span> Javascript development using React and DeckGL for real-time radar data visualization and user interface components
                         </p>
                       </div>
                     </div>
@@ -297,7 +297,7 @@ export default function Home() {
                       <div className="flex items-start space-x-3">
                         <div className="w-2 h-2 bg-purple-500 rounded-full mt-2 flex-shrink-0"></div>
                         <p className="text-gray-600 dark:text-gray-300">
-                          <span className="font-semibold">Medical Device Service Tool:</span> C# development using .NET framework for diagnostic and maintenance applications
+                          <span className="font-semibold">Medical Device Service Tool:</span> C# development using .NET framework to create a diagnostic and maintenance platform supporting various medical devices
                         </p>
                       </div>
                     </div>
