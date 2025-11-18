@@ -121,29 +121,30 @@ export default function Home() {
             </h1>
             
             <h2 className="text-2xl md:text-2xl text-gray-600 dark:text-gray-300 mb-6 font-light">
-              Software Engineer | Active Secret Clearance
+              Software Engineer
             </h2>
 
             <div className="flex items-center justify-center space-x-6 mb-8 text-gray-500 dark:text-gray-400">
               <div className="flex items-center space-x-2">
                 <HiLocationMarker />
-                <span>Syracuse NY</span>
+                <span>Rockville, MD</span>
               </div>
               <div className="flex items-center space-x-2">
                 <HiBriefcase />
-                <span>C Speed</span>
+                <span>X-energy</span>
               </div>
             </div>
 
             <p className="text-lg md:text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed mb-12">
-              Software engineer at <a 
-                href="https://www.cspeed.com/" 
-                target="_blank" 
-                rel="noreferrer" 
+              Software engineer at <a
+                href="https://x-energy.com/"
+                target="_blank"
+                rel="noreferrer"
                 className="text-blue-600 dark:text-blue-400 font-semibold hover:text-blue-800 dark:hover:text-blue-300 transition-colors underline"
               >
-                C Speed
-              </a> with a strong desire to contribute to software solutions that help people. Actively developing, testing, debugging and maintaining software for industry leading <span className="text-purple-600 dark:text-purple-400 font-semibold">medical devices</span> and <span className="text-pink-600 dark:text-pink-400 font-semibold">radar surveillance systems</span>.
+                X-energy
+              </a> with a strong desire to contribute to software solutions that help people. Actively developing, debugging, and maintaining <span className="text-purple-600 dark:text-purple-400 font-semibold">nuclear safety </span>
+              analysis software applications.
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
@@ -234,7 +235,7 @@ export default function Home() {
               <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-blue-600 to-purple-600"></div>
               
               <div className="space-y-12">
-                {/* Current Position - Radar Software Engineer */}
+                {/* Current Position - Nuclear Software Engineer */}
                 <div className="relative flex items-start space-x-8">
                   <div className="flex-shrink-0 w-16 h-16 bg-gradient-to-br from-blue-600 to-purple-600 rounded-full flex items-center justify-center">
                     <HiBriefcase className="text-white text-xl" />
@@ -242,14 +243,47 @@ export default function Home() {
                   <div className="flex-grow bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg border-l-4 border-green-500 hover:shadow-2xl hover:scale-105 transition-all duration-300 cursor-pointer">
                     <div className="flex items-center space-x-3 mb-2">
                       <h3 className="text-2xl font-semibold text-gray-800 dark:text-gray-200">
-                        Radar Software Engineer
+                        Nuclear Software Engineer
                       </h3>
                       <span className="bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200 px-3 py-1 rounded-full text-sm font-medium">
                         Current
                       </span>
                     </div>
                     <p className="text-blue-600 dark:text-blue-400 font-medium mb-4">
-                      C Speed • March 2025 - Present
+                      X-energy • November 2025 - Present
+                    </p>
+                    <div className="space-y-3 mb-6">
+                      <div className="flex items-start space-x-3">
+                        <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
+                        <p className="text-gray-600 dark:text-gray-300">
+                          <span className="font-semibold">XSTERM: </span> C# desktop and console applications used in the safety analysis process of nuclear reactors and fuel
+                        </p>
+                      </div>
+
+                    </div>
+                    <div className="flex flex-wrap gap-2">
+                      {["C#", ".NET 8", "Windows OS", "Python", "Simulation"].map((tech, index) => (
+                        <span key={index} className="bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 px-3 py-1 rounded-full text-sm hover:bg-green-200 dark:hover:bg-green-800 transition-colors duration-200">
+                          {tech}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+
+                {/* Radar Software Engineer */}
+                <div className="relative flex items-start space-x-8">
+                  <div className="flex-shrink-0 w-16 h-16 bg-gradient-to-br from-blue-600 to-purple-600 rounded-full flex items-center justify-center">
+                    <HiBriefcase className="text-white text-xl" />
+                  </div>
+                  <div className="flex-grow bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg border-l-4 border-blue-500 hover:shadow-2xl hover:scale-105 transition-all duration-300 cursor-pointer">
+                    <div className="flex items-center space-x-3 mb-2">
+                      <h3 className="text-2xl font-semibold text-gray-800 dark:text-gray-200">
+                        Radar Software Engineer
+                      </h3>
+                    </div>
+                    <p className="text-blue-600 dark:text-blue-400 font-medium mb-4">
+                      C Speed • March 2025 - November 2025
                     </p>
                     <div className="space-y-3 mb-6">
                       <div className="flex items-start space-x-3">
@@ -302,7 +336,7 @@ export default function Home() {
                       </div>
                     </div>
                     <div className="flex flex-wrap gap-2">
-                      {["C++", "C", "C#", ".NET", "Yocto", "Embedded Systems", "Medical Devices"].map((tech, index) => (
+                      {["C++", "C", "C#", ".NET Framework", "Yocto", "Embedded Systems", "Medical Devices"].map((tech, index) => (
                         <span key={index} className="bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 px-3 py-1 rounded-full text-sm hover:bg-purple-200 dark:hover:bg-purple-800 transition-colors duration-200">
                           {tech}
                         </span>
@@ -389,7 +423,7 @@ export default function Home() {
 
       <footer className="bg-gray-900 text-white py-8">
         <div className="max-w-6xl mx-auto px-6 text-center">
-          <p> Caleb Voorhees | Software Engineer | Active Secret Clearance</p>
+          <p> Caleb Voorhees | Software Engineer</p>
         </div>
       </footer>
     </div>

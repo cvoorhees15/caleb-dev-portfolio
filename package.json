@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "framer-motion": "^12.23.12",
     "icons": "^1.0.0",
     "next": "12.3.1",
     "react": "^18.2.0",
@@ -16,6 +17,8 @@
     "react-icons": "^4.8.0"
   },
   "devDependencies": {
+    "@types/node": "24.3.0",
+    "@types/react": "19.1.10",
     "autoprefixer": "^10.4.12",
     "eslint": "8.25.0",
     "eslint-config-next": "12.3.1",
