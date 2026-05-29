@@ -2,8 +2,6 @@ import Head from 'next/head'
 import { BsFillMoonStarsFill, BsDownload, BsArrowRight } from 'react-icons/bs'
 import { AiFillLinkedin, AiFillGithub, AiFillMail } from 'react-icons/ai'
 import { HiLocationMarker, HiBriefcase, HiAcademicCap } from 'react-icons/hi'
-import Image from 'next/image'
-import calebImage from '../public/caleb.png'
 import { useState, useEffect } from "react";
 
 export default function Home() {
@@ -97,7 +95,7 @@ export default function Home() {
         {/* Hero Section */}
         <section id="hero" className="min-h-screen flex items-center justify-center">
           <div className="max-w-5xl mx-auto px-6">
-            <div className="grid md:grid-cols-2 gap-16 items-center">
+            <div className="items-center">
               <div>
                 <p className="text-neutral-400 text-sm tracking-widest uppercase mb-4">
                   Software Engineer
@@ -147,19 +145,6 @@ export default function Home() {
                   </button>
                 </div>
               </div>
-
-              <div className="hidden md:flex justify-center">
-                <div className="relative w-80 h-80">
-                  <div className="absolute inset-0 bg-neutral-100 dark:bg-neutral-900"></div>
-                  <div className="absolute inset-4 bg-neutral-200 dark:bg-neutral-800 overflow-hidden">
-                    <Image 
-                      src={calebImage} 
-                      alt="Caleb Voorhees" 
-                      className="w-full h-full object-cover" 
-                    />
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </section>
@@ -183,7 +168,7 @@ export default function Home() {
                 
                 <div className="grid grid-cols-3 gap-8 py-8 border-y border-neutral-200 dark:border-neutral-800 mb-12">
                   <div>
-                    <div className="text-4xl font-light text-black dark:text-white">3+</div>
+                    <div className="text-4xl font-light text-black dark:text-white">5+</div>
                     <div className="text-sm text-neutral-400 mt-1">Years</div>
                   </div>
                   <div>
@@ -284,12 +269,12 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* Design Services */}
+              {/* SWE Consultant */}
               <div className="group border-t border-neutral-200 dark:border-neutral-800 py-10 hover:bg-white dark:hover:bg-white transition-colors px-6 -mx-6">
                 <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4">
                   <div className="flex-1">
                     <h3 className="text-xl font-medium text-black dark:text-black mb-2">
-                      Design Services Software Engineer
+                      Software Engineer Consultant
                     </h3>
                     <p className="text-neutral-400 text-sm mb-4">C Speed • Jun 2023 - Mar 2025</p>
                     <p className="text-neutral-500 dark:text-neutral-800 mb-4">
